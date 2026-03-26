@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Configure AI
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyDJ7gDOLtjW8uBLtU1jLInMo6B9djTrOJs"))
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 class Query(BaseModel):
